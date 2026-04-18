@@ -15,19 +15,20 @@
 <table>
   <tr>
     <td align="center"><img src="hotel_images/Page1.png" width="340" alt="Homepage"/><br/><sub><b>Homepage</b></sub></td>
-    <td align="center"><img src="hotel_images/Page2.png" width="340" alt="Room Listing"/><br/><sub><b>Room Listing</b></sub></td>
+    <td align="center"><img src="hotel_images/page2.png" width="340" alt="Room Listing"/><br/><sub><b>Services</b></sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="hotel_images/Page3.png" width="340" alt="Room Details"/><br/><sub><b>Room Details</b></sub></td>
-    <td align="center"><img src="hotel_images/Page4.png" width="340" alt="Booking Form"/><br/><sub><b>Booking Form</b></sub></td>
+    <td align="center"><img src="hotel_images/Page3.png" width="340" alt="Room Details"/><br/><sub><b>Overview</b></sub></td>
+    <td align="center"><img src="hotel_images/Page4.png" width="340" alt="Booking Form"/><br/><sub><b>Explore</b></sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="hotel_images/Page5.png" width="340" alt="Guest Dashboard"/><br/><sub><b>Guest Dashboard</b></sub></td>
-    <td align="center"><img src="hotel_images/Page6.png" width="340" alt="Admin Panel"/><br/><sub><b>Admin Panel</b></sub></td>
+    <td align="center"><img src="hotel_images/Page5.png" width="340" alt="Guest Dashboard"/><br/><sub><b>Room and Suits</b></sub></td>
+    <td align="center"><img src="hotel_images/Page6.png" width="340" alt="Admin Panel"/><br/><sub><b>Community</b></sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="hotel_images/Page7.png" width="340" alt="Reservations Management"/><br/><sub><b>Reservations Management</b></sub></td>
-    <td align="center"><img src="hotel_images/Page8.png" width="340" alt="Reports & Analytics"/><br/><sub><b>Reports & Analytics</b></sub></td>
+    <td align="center"><img src="hotel_images/Page7.png" width="340" alt="Reservations Management"/><br/><sub><b>Satisfied Customers</b></sub></td>
+    <td align="center"><img src="hotel_images/Page8.png" width="340" alt="Reports & Analytics"/><br/><sub><b>Got A Question</b></sub></td>
+    
   </tr>
 </table>
 
