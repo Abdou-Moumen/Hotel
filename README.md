@@ -14,7 +14,7 @@
 <table>
   <tr>
     <td align="center"><img src="hotel_images/Page1.png" width="340" alt="Homepage"/><br/><sub><b>Homepage</b></sub></td>
-    <td align="center"><img src="hotel_images/Page2.png" width="340" alt="Services"/><br/><sub><b>Services</b></sub></td>
+    <td align="center"><img src="hotel_images/page2.png" width="340" alt="Services"/><br/><sub><b>Services</b></sub></td>
   </tr>
   <tr>
     <td align="center"><img src="hotel_images/Page3.png" width="340" alt="Overview"/><br/><sub><b>Overview</b></sub></td>
@@ -187,17 +187,3 @@ Since this is a fully static site, it can be deployed anywhere for free:
 | **Vercel** | Import the repo at [vercel.com](https://vercel.com/) — zero config needed |
 
 ---
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/your-feature`
-3. Commit your changes: `git commit -m 'Add your feature'`
-4. Push to the branch: `git push origin feature/your-feature`
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
