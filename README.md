@@ -1,12 +1,11 @@
-# 🏨 Hotel Booking Platform | Luxury Stay Management System
+# 🏨 Hotel Booking Platform | Luxury Stay Website
 
-[![Laravel](https://img.shields.io/badge/Laravel-11.x-FF2D20?style=flat-square&logo=laravel&logoColor=white)](https://laravel.com/)
-[![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?style=flat-square&logo=php&logoColor=white)](https://php.net/)
-[![Blade](https://img.shields.io/badge/Blade-Template-FF2D20?style=flat-square&logo=laravel&logoColor=white)](https://laravel.com/docs/blade)
-[![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://mysql.com/)
-[![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-7952B3?style=flat-square&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![GSAP](https://img.shields.io/badge/GSAP-3.x-88CE02?style=flat-square&logo=greensock&logoColor=white)](https://greensock.com/gsap/)
 
-> **A full-featured hotel booking and management platform** — delivering a seamless experience for guests and staff from reservation to checkout.
+> **A visually rich hotel showcase website** — built with pure HTML, CSS, and JavaScript, featuring smooth GSAP-powered animations and an elegant multi-section layout.
 
 ---
 
@@ -15,20 +14,19 @@
 <table>
   <tr>
     <td align="center"><img src="hotel_images/Page1.png" width="340" alt="Homepage"/><br/><sub><b>Homepage</b></sub></td>
-    <td align="center"><img src="hotel_images/page2.png" width="340" alt="Room Listing"/><br/><sub><b>Services</b></sub></td>
+    <td align="center"><img src="hotel_images/Page2.png" width="340" alt="Services"/><br/><sub><b>Services</b></sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="hotel_images/Page3.png" width="340" alt="Room Details"/><br/><sub><b>Overview</b></sub></td>
-    <td align="center"><img src="hotel_images/Page4.png" width="340" alt="Booking Form"/><br/><sub><b>Explore</b></sub></td>
+    <td align="center"><img src="hotel_images/Page3.png" width="340" alt="Overview"/><br/><sub><b>Overview</b></sub></td>
+    <td align="center"><img src="hotel_images/Page4.png" width="340" alt="Explore"/><br/><sub><b>Explore</b></sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="hotel_images/Page5.png" width="340" alt="Guest Dashboard"/><br/><sub><b>Room and Suits</b></sub></td>
-    <td align="center"><img src="hotel_images/Page6.png" width="340" alt="Admin Panel"/><br/><sub><b>Community</b></sub></td>
+    <td align="center"><img src="hotel_images/Page5.png" width="340" alt="Rooms & Suites"/><br/><sub><b>Rooms & Suites</b></sub></td>
+    <td align="center"><img src="hotel_images/Page6.png" width="340" alt="Community"/><br/><sub><b>Community</b></sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="hotel_images/Page7.png" width="340" alt="Reservations Management"/><br/><sub><b>Satisfied Customers</b></sub></td>
-    <td align="center"><img src="hotel_images/Page8.png" width="340" alt="Reports & Analytics"/><br/><sub><b>Got A Question</b></sub></td>
-    
+    <td align="center"><img src="hotel_images/Page7.png" width="340" alt="Satisfied Customers"/><br/><sub><b>Satisfied Customers</b></sub></td>
+    <td align="center"><img src="hotel_images/Page8.png" width="340" alt="Got A Question"/><br/><sub><b>Got A Question</b></sub></td>
   </tr>
 </table>
 
@@ -36,7 +34,7 @@
 
 ## 📋 Overview
 
-This platform provides a complete solution for hotel operations — from online room browsing and booking to back-office reservation management. Guests enjoy a smooth booking experience while admins maintain full control over rooms, availability, and payments.
+A fully static hotel website built from scratch using only HTML, CSS, and vanilla JavaScript — no frameworks, no back-end. Smooth scroll-triggered animations are powered by **GSAP (GreenSock Animation Platform)**, creating a polished, immersive experience across all sections.
 
 **Built by:** [Your Team Name]
 
@@ -44,143 +42,71 @@ This platform provides a complete solution for hotel operations — from online 
 
 ## 🎯 Key Features
 
-### 🛎️ Guest Side
-- Browse available rooms with filters (type, price, capacity, amenities)
-- View detailed room pages with photo galleries and descriptions
-- Book rooms with real-time availability checking
-- Receive booking confirmation via email
-- Manage reservations (view, modify, cancel)
-- Secure account registration and login
+### 🌐 Pages & Sections
+- **Homepage** — Hero section with animated entrance and call-to-action
+- **Services** — Hotel amenities and offerings showcase
+- **Overview** — About the hotel, vision, and highlights
+- **Explore** — Local attractions and experiences
+- **Rooms & Suites** — Room catalog with details and imagery
+- **Community** — Social proof and guest stories
+- **Satisfied Customers** — Testimonials and ratings
+- **Got A Question** — Contact form and FAQ section
 
-### 🏢 Admin Side
-- Full room management (create, edit, delete, set availability)
-- View and manage all guest reservations
-- Update booking statuses (Pending, Confirmed, Checked-in, Checked-out, Cancelled)
-- Upload and manage room photo galleries
-- Generate occupancy and revenue reports
-- Manage guest accounts and profiles
+### ✨ Animations & Interactions
+- GSAP-powered scroll-triggered reveal animations
+- Smooth entrance effects on hero and section headings
+- Interactive hover states on cards and buttons
+- Animated navigation and mobile hamburger menu
+- Staggered card reveals for rooms and features
 
-### 🔐 Security Features
-- Role-based authentication (Guest, Receptionist, Admin)
-- Secure password hashing with bcrypt
-- CSRF protection on all forms
-- Validated file uploads for room images
-- Session-based authentication with Laravel Sanctum
+### 🎨 Design & UX
+- Fully responsive layout (mobile, tablet, desktop)
+- Custom CSS variables for consistent theming
+- Elegant typography pairing for a luxury feel
+- Optimized images for fast load times
+- Accessible semantic HTML5 structure
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer | Technology | Download Link |
-|-------|-------------|----------------|
-| **Framework** | Laravel 11 | [laravel.com](https://laravel.com/) |
-| **PHP** | PHP 8.2+ | [php.net](https://php.net/downloads) |
-| **Templating** | Blade | Built into Laravel |
-| **Database** | MySQL 8.0 | [mysql.com/downloads](https://dev.mysql.com/downloads/) |
-| **CSS Framework** | Bootstrap 5.3 | [getbootstrap.com](https://getbootstrap.com/) |
-| **Dependency Mgr** | Composer | [getcomposer.org](https://getcomposer.org/download/) |
-| **Dev Tools** | Node.js & npm | [nodejs.org](https://nodejs.org/) |
+| Layer | Technology | Link |
+|-------|------------|------|
+| **Markup** | HTML5 | [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/HTML) |
+| **Styling** | CSS3 | [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS) |
+| **Logic** | JavaScript ES6+ | [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
+| **Animations** | GSAP 3.x | [greensock.com](https://greensock.com/gsap/) |
+| **GSAP Plugin** | ScrollTrigger | [greensock.com/scrolltrigger](https://greensock.com/scrolltrigger/) |
+| **Dev Tools** | VS Code | [code.visualstudio.com](https://code.visualstudio.com/) |
+| | Live Server | [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) |
 | | Git | [git-scm.com](https://git-scm.com/downloads) |
-| | Laragon/XAMPP | [laragon.org](https://laragon.org/download/) |
 
 ---
 
-## 📥 Installation Guide
+## 📥 Getting Started
 
-### 1. Install a Local Server Environment (Choose ONE)
+No build tools or package manager required — just open and run.
 
-**Option A: Laragon (Recommended for Windows)**
-```bash
-# Download from laragon.org
-# Install and start Laragon
-# It includes PHP, MySQL, Composer, and Node.js automatically
-```
+### Option A: Live Server (Recommended)
 
-**Option B: XAMPP**
-```bash
-# Download from apachefriends.org
-# Install and start Apache + MySQL modules
-# Install PHP 8.2+ separately if needed
-```
+1. Install [VS Code](https://code.visualstudio.com/)
+2. Install the **Live Server** extension by Ritwick Dey
+3. Open the project folder in VS Code
+4. Right-click `index.html` → **"Open with Live Server"**
+5. Visit `http://127.0.0.1:5500` in your browser
 
----
-
-### 2. Clone the Repository
+### Option B: Direct File Open
 
 ```bash
+# Clone the repository
 git clone https://github.com/your-username/hotel-platform.git
 cd hotel-platform
+
+# Open index.html directly in your browser
+# (double-click the file, or drag it into a browser window)
 ```
 
----
-
-### 3. Install PHP Dependencies
-
-```bash
-composer install
-```
-
----
-
-### 4. Install JavaScript Dependencies
-
-```bash
-npm install
-npm run build
-```
-
----
-
-### 5. Environment Setup
-
-```bash
-# Copy the example environment file
-cp .env.example .env
-
-# Generate the application key
-php artisan key:generate
-```
-
-Then open `.env` and configure your database:
-
-```env
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=hotel_db
-DB_USERNAME=root
-DB_PASSWORD=
-```
-
----
-
-### 6. Database Setup
-
-```bash
-# Run migrations
-php artisan migrate
-
-# Seed with sample data (optional)
-php artisan db:seed
-```
-
----
-
-### 7. Storage Link (for room images)
-
-```bash
-php artisan storage:link
-```
-
----
-
-### 8. Run the Application
-
-```bash
-php artisan serve
-```
-
-Visit **http://localhost:8000** in your browser.
+> ⚠️ Some browsers restrict local font/image requests. Live Server avoids this entirely.
 
 ---
 
@@ -188,58 +114,77 @@ Visit **http://localhost:8000** in your browser.
 
 ```
 hotel-platform/
-├── app/
-│   ├── Http/
-│   │   ├── Controllers/
-│   │   │   ├── RoomController.php
-│   │   │   ├── BookingController.php
-│   │   │   ├── GuestController.php
-│   │   │   └── AdminController.php
-│   │   └── Middleware/
-│   └── Models/
-│       ├── Room.php
-│       ├── Booking.php
-│       └── User.php
-├── database/
-│   ├── migrations/
-│   └── seeders/
-├── public/
-│   └── hotel_images/        ← Page1.png ... Page8.png
-├── resources/
-│   └── views/
-│       ├── layouts/
-│       ├── rooms/
-│       ├── bookings/
-│       └── admin/
-├── routes/
-│   └── web.php
-└── storage/
-    └── app/public/
+├── index.html                  ← Main entry point
+├── css/
+│   ├── style.css               ← Global styles & CSS variables
+│   ├── animations.css          ← GSAP animation helpers
+│   └── responsive.css          ← Media queries & breakpoints
+├── js/
+│   ├── main.js                 ← Core interactions & logic
+│   ├── animations.js           ← GSAP timelines & ScrollTrigger setup
+│   └── navbar.js               ← Navigation & mobile menu toggle
+├── hotel_images/
+│   ├── Page1.png               ← Homepage
+│   ├── Page2.png               ← Services
+│   ├── Page3.png               ← Overview
+│   ├── Page4.png               ← Explore
+│   ├── Page5.png               ← Rooms & Suites
+│   ├── Page6.png               ← Community
+│   ├── Page7.png               ← Satisfied Customers
+│   └── Page8.png               ← Got A Question
+└── README.md
 ```
 
 ---
 
-## 🗄️ Database Schema
+## 🎬 GSAP Setup
 
+GSAP is loaded via CDN — no installation needed:
+
+```html
+<!-- Add before </body> in your HTML -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 ```
-users          — id, name, email, password, role, timestamps
-rooms          — id, name, type, description, price_per_night, capacity, status, timestamps
-bookings       — id, user_id, room_id, check_in, check_out, status, total_price, timestamps
-room_images    — id, room_id, image_path, is_primary, timestamps
+
+Example animation patterns used in the project:
+
+```javascript
+gsap.registerPlugin(ScrollTrigger);
+
+// Hero entrance
+gsap.from(".hero-title", {
+  opacity: 0,
+  y: 60,
+  duration: 1.2,
+  ease: "power3.out"
+});
+
+// Scroll-triggered card stagger
+gsap.from(".room-card", {
+  scrollTrigger: {
+    trigger: ".rooms-section",
+    start: "top 80%",
+  },
+  opacity: 0,
+  y: 40,
+  stagger: 0.15,
+  duration: 0.9,
+  ease: "power2.out"
+});
 ```
 
 ---
 
-## 👤 Default Admin Credentials
+## 🌐 Deployment
 
-After seeding the database:
+Since this is a fully static site, it can be deployed anywhere for free:
 
-```
-Email:    admin@hotel.com
-Password: password
-```
-
-> ⚠️ Change these immediately in a production environment.
+| Platform | How to Deploy |
+|----------|---------------|
+| **GitHub Pages** | Push to `main` → Settings → Pages → Deploy from branch |
+| **Netlify** | Drag & drop the project folder at [app.netlify.com/drop](https://app.netlify.com/drop) |
+| **Vercel** | Import the repo at [vercel.com](https://vercel.com/) — zero config needed |
 
 ---
 
